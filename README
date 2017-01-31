@@ -1,0 +1,31 @@
+WizardDemo is a simple example of a custom wizard built using Eclipse E4 RCP.
+
+It consists of a handful of classes:
+	1 Composite : ButtonHolder
+	1 Handler : OpenWizard
+	1 Custom Wizard Class : WizardDemo
+	3 Custom Wizard Pages : WizardDemoPage1
+							WizardDemoPage2A
+							WizardDemoPage2B
+And some items in the Application.e4xmi:
+	1 Command : Open Wizard
+	1 Handler : Open Wizard
+	1 TrimmedWindow : Wizard Demo
+	1 Part : Button Holder
+
+Each class contains a collection of comments in an attempt to provide as much explanation
+	as possible.
+
+Regarding the Application.e4xmi, the most important notes are:
+	-A command and handler were used to trigger opening the wizard. There are other
+		ways to achieve this, but it serves as a good secondary example for using commands
+		& handlers as they can also be used in other interesting ways.
+		Notice that the command is pretty simple, and that the handler MUST point
+		at the command it is associated with.
+	-The TrimmedWindow is the main window of the application. You can alter the 
+		default window size, where it is placed on screen, and the window title.
+	-The Part is the framework for a part of an application (E.g. an area you want
+		to see or work with in your app), and what class it's associated with for 
+		construction. Notice that "Class URI" is where you indicate where it's associated 
+		class resides. Additionally, if you were building a new application you 
+		could click on 'Class URI' to generate a class with the basics.
