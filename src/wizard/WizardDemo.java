@@ -53,8 +53,13 @@ public class WizardDemo extends Wizard
 	{
 		if (currentPage.equals(page1))
 		{
-			if ( ( (WizardDemoPage1) currentPage).isButton2AChecked() ) return page2A;
-			return page2B;
+			if ( ( (WizardDemoPage1) currentPage).isButton2AChecked() )
+			{
+				return page2A;
+			} else if ( ( (WizardDemoPage1) currentPage).isButton2BChecked() )
+			{
+				return page2B;
+			}
 		}
 		
 		return null;

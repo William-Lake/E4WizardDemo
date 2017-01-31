@@ -63,7 +63,7 @@ public class WizardDemoPage1 extends WizardPage
 	 * 		Adds Control Listeners
 	 * 		Sets Control Layout
 	 * 
-	 * There are three important differences from typical createControl() methods in Parts:
+	 * There are two important differences from typical createControl() methods in Parts:
 	 * 
 	 * 		[1] You need to put all of your controls on your own composite,
 	 * 			NOT the composite that is passed in. 
@@ -91,7 +91,8 @@ public class WizardDemoPage1 extends WizardPage
 			public void widgetSelected(SelectionEvent event)
 			{
 				//Un-Checks the other button (button2B) if this one (button2A) is selected.
-				button2B.setSelection(false); 
+				button2B.setSelection(false);
+				setPageComplete(true);
 			}
 		});
 		
@@ -102,6 +103,7 @@ public class WizardDemoPage1 extends WizardPage
 			{
 				//Un-Checks the other button (button2A) if this one (button2B) is selected.
 				button2A.setSelection(false);
+				setPageComplete(true);
 			}
 		});
 		
