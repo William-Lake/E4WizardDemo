@@ -18,7 +18,7 @@
 
 ----------
 ### Motivation
-I'm relatively new to Computer Programming and as part of my work have been learning more about building software with the Eclipse E4 Rich Client Platform. I've been lucky enough to have a mentor who has guided me through some of the more confusing parts (E.g. Annotations), although I know not everyone has the same benefit. Knowing that this platform, once understood, can help a lot of newbies start bringing their own software ideas to life- I decided to share what I'd learned. I realize there are already examples out there, but I aim to build some that keep things as simple and well explained as possible. As a result, in this project you will find a minimalistic example full of comments. My hope is you will be able to leverage what you find here to successfully build your own Wizard and deeper understanding of the Eclipse E4 Rich Client Platform.
+I'm relatively new to Computer Programming and as part of my work have been learning more about building software with the Eclipse E4 Rich Client Platform. I've been lucky enough to have a mentor who has guided me through some of the more confusing parts (E.g. Annotations), although I know not everyone has the same benefit. Knowing that this platform, once understood, can help a lot of newbies start bringing their own software ideas to life- I decided to share what I'd learned. I realize there are already examples out there, but I aim to build some that keep things as simple and well explained as possible. As a result, in this project you will find a minimalistic example full of comments. My hope is you will be able to leverage what you find here to successfully build your own Wizard along with a deeper understanding of the Eclipse E4 Rich Client Platform.
 
 
 ----------
