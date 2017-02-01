@@ -74,7 +74,7 @@ I'm relatively new to Computer Programming and as part of my work have been lear
 		 2. This is where you can modify the size of your application's window.
 		 3. The Trimmed Window houses all of the important pieces that make up your application, such as Menus and Parts.
  - Part
-	 - There is one Part in this program's Applicaiton.e4xmi.
+	 - There is one Part in this program's Application.e4xmi.
 	 - The "Class URI" field is most important here as it points to the class that houses code for creating and laying out controls (E.g. buttons, labels, etc.) on this Part. 
 
 
