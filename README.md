@@ -39,7 +39,7 @@ I'm relatively new to Computer Programming and as part of my work have been lear
 
 **Once the Tools have been installed, you can add this project like you would any other Java Project:**
 
- 1. Download the .zip file of this project [here](https://github.com/William-Lake/E4WizardDemo/blob/master/E4WizardDemo.zip).
+ 1. Download the .zip file of this project [here](https://github.com/William-Lake/E4WizardDemo/archive/master.zip).
  2. Import the project.
 	 *- Navigate to Eclipse, and right click in your [Project Explorer](http://help.eclipse.org/luna/topic/org.eclipse.platform.doc.user/images/Image275_project_explorer.png), choosing "Import" about halfway down the pop-up menu.* 
 	 *- Type "archive" into the search bar to easily locate the option titled "Archive File". Select it and click the "Next" button at the bottom of the window.*
