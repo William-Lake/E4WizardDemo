@@ -17,13 +17,13 @@
 
 
 ----------
-#### Motivation
+### Motivation
 I'm relatively new to Computer Programming and as part of my work have been learning more about building software with the Eclipse E4 Rich Client Platform. I've been lucky enough to have a mentor who has guided me through some of the more confusing parts (E.g. Annotations), although I know not everyone has the same benefit. Knowing that this platform, once understood, can help a lot of newbies start bringing their own software ideas to life- I decided to share what I'd learned. I realize there are already examples out there, but I aim to build some that keep things as simple and well explained as possible. As a result, in this project you will find a minimalistic example full of comments. My hope is you will be able to leverage what you find here to successfully build your own Wizard and deeper understanding of the Eclipse E4 Rich Client Platform.
 
 
 ----------
-#### Installation
-##### This project requires the Eclipse E4 Tools to be installed:
+### Installation
+**This project requires the Eclipse E4 Tools to be installed:**
 
  1. Open the "Install New Software" Window.
 	 *- Navigate to the far right of the top menu and click on "Help" followed by "Install Software" near the bottom of the drop down menu.*
@@ -37,7 +37,7 @@ I'm relatively new to Computer Programming and as part of my work have been lear
  4. Follow the Wizard prompts to finish installing the software.
 
 
-##### Once the Tools have been installed, you can add this project like you would any other Java Project:
+**Once the Tools have been installed, you can add this project like you would any other Java Project:**
 
  1. Download the .zip file of this project [here](https://github.com/William-Lake/E4WizardDemo/blob/master/E4WizardDemo.zip).
  2. Import the project.
@@ -49,7 +49,7 @@ I'm relatively new to Computer Programming and as part of my work have been lear
 ----------
 
 
-#### Important Classes
+### Important Classes
 
  - ButtonHolder
 	 - The first page you are greeted with when you open the program. Hosts the primary button which triggers launching the Wizard.
@@ -61,7 +61,7 @@ I'm relatively new to Computer Programming and as part of my work have been lear
 	 - I.e. WizardDemoPage1, WizardDemoPage2A, WizardDemoPage2B
 	 - These classes each represent one custom WizardPage, in essence describing how they will look and some of their inherent functionality.
 
-#### Important Application.e4xmi features
+### Important Application.e4xmi features
 
  - Handler/Command
 	 - There is one Handler (Open Wizard) and one Command (Open Wizard) within this program's Application.e4xmi.
