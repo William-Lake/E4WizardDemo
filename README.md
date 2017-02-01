@@ -79,6 +79,13 @@ I'm relatively new to Computer Programming and as part of my work have been lear
 
 
 ----------
+
+### Running the Program
+
+ 1. Open WizardDemo.product
+ 2. On the "Overview" tab, in the "Testing" section, under item 2, click the link that says "Launch an Eclipse Application".
+
+----------
 If you have any questions or need any help please don't hesitate to get a hold of me here, on [LinkedIn](www.linkedin.com/in/william-lake-543535a5), or [Twitter](https://twitter.com/SynapseDynamo) and I will do the best I can to assist.
 
 -Will
