@@ -2,7 +2,12 @@
 ### A simple example of a wizard built using the Eclipse E4 Rich Client Platform.
 
 ----------
+#### Versions
+The primary version is full of comments, in an effort to help explain all the most important features. There is also a version without any comments for those who just want the example to work with.
 
+[Download Commented Version](https://github.com/William-Lake/E4WizardDemo/archive/master.zip)
+[Download UnCommented Version](https://github.com/William-Lake/E4WizardDemo/raw/master/E4WizardDemoNOCOMMENTS.zip)
+----------
 #### Main Page
 ![enter image description here](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Main%20Page.PNG?raw=true)
 
