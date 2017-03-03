@@ -2,30 +2,22 @@
 ### A simple example of a wizard built using the Eclipse E4 Rich Client Platform.
 
 ----------
-#### Versions
-The primary version is full of comments, in an effort to help explain all the most important features. There is also a version without any comments for those who just want the example to work with.
-
-[Download Commented Version](https://github.com/William-Lake/E4WizardDemo/archive/master.zip)
-
-[Download UnCommented Version](https://github.com/William-Lake/E4WizardDemo/raw/master/E4WizardDemoNOCOMMENTS.zip)
-
-----------
 #### Main Page
-![enter image description here](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Main%20Page.PNG?raw=true)
+![Main Page](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Main%20Page.PNG?raw=true)
 
 #### Wizard Page 1
-![enter image description here](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Wizard%20Page%201.PNG?raw=true)
+![Wizard Page 1](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Wizard%20Page%201.PNG?raw=true)
 
 #### Wizard Page 2A
-![enter image description here](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Wizard%20Page%202A.PNG?raw=true)
+![Wizard Page 2A](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Wizard%20Page%202A.PNG?raw=true)
 
 #### Wizard Page 2B
-![enter image description here](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Wizard%20Page%202B.PNG?raw=true)
+![Wizard Page 2B](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Wizard%20Page%202B.PNG?raw=true)
 
 
 ----------
 ### Motivation
-I'm relatively new to Computer Programming and as part of my work have been learning more about building software with the Eclipse E4 Rich Client Platform. I've been lucky enough to have a mentor who has guided me through some of the more confusing parts (E.g. Annotations), although I know not everyone has the same benefit. Knowing that this platform, once understood, can help a lot of newbies start bringing their own software ideas to life- I decided to share what I'd learned. I realize there are already examples out there, but I aim to build some that keep things as simple and well explained as possible. As a result, in this project you will find a minimalistic example full of comments. My hope is you will leverage this application to build your own Wizard along with your understanding of the Eclipse E4 Rich Client Platform.
+I'm relatively new to Computer Programming and as part of my work have been learning more about building software with the Eclipse E4 Rich Client Platform. This process of building a custom Wizard with dynamically loading pages took me longer than I would like to admit, but in the end I did find a way to make it happen. This example program exists to provide others with similar goals a jumping off point.
 
 
 ----------
