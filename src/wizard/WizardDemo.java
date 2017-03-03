@@ -1,11 +1,3 @@
-/**
- * Wizard : WizardDemo
- * 
- * This class is your custom build of the General Wizard class.
- * 
- * It acts as the parent and organizer of your WizardPage classes.
- */
-
 package wizard;
 
 import org.eclipse.jface.wizard.IWizardPage;
@@ -15,11 +7,16 @@ import wizard.pages.WizardDemoPage1;
 import wizard.pages.WizardDemoPage2A;
 import wizard.pages.WizardDemoPage2B;
 
+/**
+ * WizardDemo
+ * <p>
+ * Instantiates, houses, and serves up custom WizardPages.
+ * 
+ * @author William Lake
+ * @see <a href="http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fjface%2Fwizard%2Fpackage-summary.html">Eclipse API, JFace Wizard</a>
+ */
 public class WizardDemo extends Wizard
 {
-	/**
-	 * Custom WizardPage objects added first.
-	 */
 	protected WizardDemoPage1 page1;
 	protected WizardDemoPage2A page2A;
 	protected WizardDemoPage2B page2B;
@@ -30,8 +27,7 @@ public class WizardDemo extends Wizard
 	}
 	
 	/**
-	 * Custom WizardPage objects instantiated here,
-	 * 	and then added to the overall Wizard via the addPage() method.
+	 * Instantiates all custom Wizard Pages, adding them to the Wizard.
 	 */
 	@Override
 	public void addPages()
@@ -45,8 +41,17 @@ public class WizardDemo extends Wizard
 	}
 	
 	/**
-	 * Serves up the next page in the Wizard when you press the "Next" button.
-	 * This method allows you to add logic to determine which page to serve up next. 
+	 * Serves up the next page in the wizard.
+	 * 
+	 * If this method is not overridden, the order of pages being served up will mirror 
+	 * the order they were added in the addPages() method via addPage().
+	 * 
+	 * Otherwise, you can use custom logic here to determine which of the added pages
+	 * will be served up next. 
+	 * 
+	 * @param currentPage
+	 * 			The current Wizard page being displayed.
+	 * @return The next WizardPage to be served up.
 	 */
 	@Override
 	public IWizardPage getNextPage(IWizardPage currentPage)
@@ -66,8 +71,16 @@ public class WizardDemo extends Wizard
 	}
 	
 	/**
-	 * Determines whether or not to enable the Wizard's "Finish" button.
-	 * This method is where you to add logic to determine this.
+	 * Determines whether the "Finish" button is enabled in the wizard.
+	 * 
+	 * If not overridden, the Finish button will become enabled when each 
+	 * WizardPage is marked as finished via their individual 
+	 * markPageComplete() methods. E.g. markPageComplete(true)
+	 * 
+	 * Otherwise you can insert custom logic here to determine when the 
+	 * WizardPage can finish.
+	 * 
+	 * @return True if the wizard can finish. 
 	 */
 	@Override
 	public boolean canFinish()
@@ -77,7 +90,12 @@ public class WizardDemo extends Wizard
 	}
 	
 	/**
-	 * This method is where you to add code to be executed before the wizard closes.
+	 * Performs the tasks within the method after the "Finish" button is pressed, 
+	 * but before closing the Wizard.
+	 * 
+	 * If True is returned, the Wizard will close.
+	 * 
+	 * @return True if the Wizard is allowed to close.
 	 */
 	@Override
 	public boolean performFinish()
