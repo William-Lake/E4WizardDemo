@@ -3,16 +3,16 @@
 
 ----------
 #### Main Page
-![Main Page](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Main%20Page.PNG?raw=true)
+![Main Page](/SamplePhotos/Main%20Page.PNG?raw=true)
 
 #### Wizard Page 1
-![Wizard Page 1](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Wizard%20Page%201.PNG?raw=true)
+![Wizard Page 1](/SamplePhotos/Wizard%20Page%201.PNG?raw=true)
 
 #### Wizard Page 2A
-![Wizard Page 2A](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Wizard%20Page%202A.PNG?raw=true)
+![Wizard Page 2A](/SamplePhotos/Wizard%20Page%202A.PNG?raw=true)
 
 #### Wizard Page 2B
-![Wizard Page 2B](https://github.com/William-Lake/E4WizardDemo/blob/master/SamplePhotos/Wizard%20Page%202B.PNG?raw=true)
+![Wizard Page 2B](/SamplePhotos/Wizard%20Page%202B.PNG?raw=true)
 
 
 ----------
