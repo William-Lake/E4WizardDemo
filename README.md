@@ -73,15 +73,6 @@ I'm relatively new to Computer Programming and as part of my work have been lear
 	 - The Command consists of a Label and an ID.
 	 - The Handler is also given a Label and ID, but is additionally pointed towards the OpenWizard Command as well as the OpenWizard class that will run once it is activated.
 	 - In short, when a Command is triggered it will activate any Handlers that are pointed at it, which in turn will run any classes that are associated with those Handlers.
- - Trimmed Window
-	 - Although there is much more to it, for the purposes of this program the most important things to know here are that:
-		 1. This is where you can modify where the application will open on the screen.
-		 2. This is where you can modify the size of your application's window.
-		 3. The Trimmed Window houses all of the important pieces that make up your application, such as Menus and Parts.
- - Part
-	 - There is one Part in this program's Application.e4xmi.
-	 - The "Class URI" field is most important here as it points to the class that houses code for creating and laying out controls (E.g. buttons, labels, etc.) on this Part. 
-
 
 ----------
 
