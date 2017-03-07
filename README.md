@@ -50,7 +50,7 @@ I'm relatively new to Computer Programming and as part of my work have been lear
 ### Running the Program
 
  1. Open WizardDemo.product
- 2. On the "Overview" tab, in the "Testing" section, under item 2, click the link that says "Launch an Eclipse Application".
+ 2. On the "Overview" tab, in the "Testing" section, under item "2. Test the product by launching a runtime instance of it:", click the first link - "Launch an Eclipse Application".
 
 ----------
 
