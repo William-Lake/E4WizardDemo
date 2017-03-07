@@ -17,7 +17,7 @@
 
 ----------
 ### Motivation
-I'm relatively new to Computer Programming and as part of my work have been learning more about building software with the Eclipse E4 Rich Client Platform. This process of building a custom Wizard with dynamically loading pages took me longer than I would like to admit, but in the end I did find a way to make it happen. This example program exists to provide others with similar goals a jumping off point.
+I'm relatively new to Computer Programming and as part of my work have been learning more about building software with the Eclipse E4 Rich Client Platform. The process of building a custom Wizard with dynamically loading pages took me longer than I would like to admit, but in the end I did find a way to make it happen. This example program exists to provide others with similar goals a jumping off point.
 
 
 ----------
