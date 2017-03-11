@@ -17,7 +17,7 @@
 
 ----------
 ### Motivation
-I'm relatively new to Computer Programming and as part of my work have been learning more about building software with the Eclipse E4 Rich Client Platform. The process of building a custom Wizard with dynamically loading pages took me longer than I would like to admit, but in the end I did find a way to make it happen. This example program exists to provide others with similar goals a jumping off point.
+I'm relatively new to Computer Programming and as part of my work have been learning more about building software with the Eclipse E4 Rich Client Platform. There are a number of things I've learned and one of them is how to build a Wizard with dynamically loaded pages. This example program exists to provide others a jumping off point for applying this functionality into their own apps.
 
 
 ----------
@@ -53,18 +53,6 @@ I'm relatively new to Computer Programming and as part of my work have been lear
  2. On the "Overview" tab, in the "Testing" section, under item "2. Test the product by launching a runtime instance of it:", click the first link - "Launch an Eclipse Application".
 
 ----------
-
-### Important Classes
-
- - ButtonHolder
-	 - The first page you are greeted with when you open the program. Hosts the primary button which triggers launching the Wizard.
- - OpenWizard
-	 - The class that runs when the button on the main page is pressed. It creates and opens the Wizard.
- - WizardDemo
-	 - This is the class that instantiates, organizes, and serves up all the pages that make up your Wizard.
- - Various WizardPages
-	 - I.e. WizardDemoPage1, WizardDemoPage2A, WizardDemoPage2B
-	 - These classes each represent one custom WizardPage, in essence describing how they will look and some of their inherent functionality.
 
 ### Important Application.e4xmi features
 
